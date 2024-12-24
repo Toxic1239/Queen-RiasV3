@@ -11,7 +11,7 @@ RUN apt-get update && \
   
 COPY package.json .
   
-RUN gitclone https://github.com/Toxic1239/Queen-RiasV3
+RUN git clone https://github.com/Toxic1239/Queen-RiasV3
 
 RUN yarn install 
 
