@@ -2,8 +2,8 @@ require('dotenv').config(); // Load environment variables
 
 module.exports = {
     prefix: process.env.PREFIX || '.', // Command prefix
-    ownerName: process.env.OWNER_NAME || 'Toxxic', // Owner name
-    ownerNumber: process.env.OWNER_NUMBER || '2348165846414', // Your WhatsApp number
+    ownerName: process.env.OWNER_NAME || 'Xoro', // Owner name
+    ownerNumber: process.env.OWNER_NUMBER || '2349168984856', // Your WhatsApp number
     mode: process.env.MODE || 'public', // Bot mode: 'public' or 'private'
     region: process.env.REGION || 'Nigeria', // Region
     botName: process.env.BOT_NAME || 'Rias Gremory V3', // Bot name
